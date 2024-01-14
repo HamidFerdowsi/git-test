@@ -5,10 +5,14 @@
     direction: rtl;
 }
 header,footer{
-    font-size: 14px;
     background-color: red;
     color: #fff;
     height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+}
+header{
+    position: relative;
 }
 main{
     font-size:20px;
@@ -16,4 +20,8 @@ main{
 }
 #main-logo{
     height: 100%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
