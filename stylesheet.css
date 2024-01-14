@@ -1,0 +1,9 @@
+header,footer{
+    font-size: 14px;
+    background-color: black;
+    color: #fff;
+}
+main{
+    font-size:20px;
+    background-color: lightblue;
+}
